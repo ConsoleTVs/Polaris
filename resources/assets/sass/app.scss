@@ -1,0 +1,41 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons");
+
+// Variables
+@import "variables";
+
+// Vuetify
+@import "node_modules/vuetify/dist/vuetify.min";
+
+[v-cloak] {
+  display: none;
+}
+
+html {
+    overflow-y: auto;
+}
+
+.card--flex-toolbar.main-card {
+  margin-top: -64px;
+}
+
+.flex {
+  margin-bottom: 16px;
+}
+
+.center {
+  text-align: center;
+}
+
+.no-color {
+    color: inherit !important;
+}
+
+/* CSS Transitions */
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .3s
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0
+}
